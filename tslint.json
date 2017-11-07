@@ -1,0 +1,12 @@
+{
+  "defaultSeverity": "warning",
+  "extends": ["tslint:latest", "tslint-eslint-rules", "tslint-config-prettier"],
+  "rules": {
+    "no-implicit-dependencies": [1, "dev"],
+    "object-literal-sort-keys": [false],
+    "max-classes-per-file": [false],
+    "member-access": [true, "no-public"],
+    "no-console": [false],
+    "ordered-imports": [false]
+  }
+}

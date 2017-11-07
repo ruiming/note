@@ -1,0 +1,13 @@
+node_modules
+.vscode
+/coverage
+.nyc_output
+/build
+.idea
+/docker-data
+test/
+*.md
+.gitignore
+docker-compose.yml
+tslint.json
+config/test.yml

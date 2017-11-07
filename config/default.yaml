@@ -1,0 +1,23 @@
+database:
+  name: note
+  host: 127.0.0.1
+  port: 3306
+  username: root
+  password:
+  logging: true
+
+cache:
+  host: 127.0.0.1
+  port: 6379
+  db: 0
+
+jwt:
+  secret: 3vzNBnSdF8cP6kpP6ncf
+  algorithm: RS256
+  exp: 5184000000
+
+sentry:
+  uri: 
+
+env: development
+port: 8080
